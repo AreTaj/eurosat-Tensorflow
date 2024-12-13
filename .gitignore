@@ -1,1 +1,7 @@
 /.venv
+
+*.txt
+*.pdf
+*.png
+
+!requirements.txt
