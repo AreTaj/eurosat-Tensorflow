@@ -1,12 +1,15 @@
 /.venv
 
+# Ignore file types:
 *.txt
 *.pdf
 *.png
 *.pyc
 
+# Except:
 !requirements.txt
 
+# Ignore specific files:
 automl.py
 .DS_Store
 __pycache__
