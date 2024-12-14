@@ -3,6 +3,7 @@
 *.txt
 *.pdf
 *.png
+*.pyc
 
 !requirements.txt
 
