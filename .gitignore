@@ -8,7 +8,7 @@
 
 # Except:
 !requirements.txt
-!example_figures.pny
+!example_figures.png
 
 # Ignore specific files:
 automl.py
