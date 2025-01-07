@@ -34,6 +34,7 @@ This README will guide you through the functionalities of the project and provid
 
 * Prints information about the dataset features and structure.
 * Displays sample images and their corresponding labels.
+![Sample Images](example_figures.png)
 * Calculates the distribution of samples across different land cover classes.
 
 **5. Model Building and Training (classification.py)**
@@ -53,6 +54,7 @@ This README will guide you through the functionalities of the project and provid
 
 * The saved model `.keras` is loaded.
 * The model is then evaluated on various metrics, such as using `model.evaluate` on the test set and printing the test accuracy.
+* In its current form, the model has a test accuracy of *78.78%*
 
 **7. Usage**
 

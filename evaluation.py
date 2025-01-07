@@ -7,4 +7,5 @@ model = load_model('eurosat_cnn_model.keras')  # Replace with the filename you u
 
 """ Section: Evaluate the Model """
 test_loss, test_acc = model.evaluate(test_ds)
-print('Test accuracy:', test_acc)
+with open('evaluation_output.txt', 'w') as f:  # Open file for writing
+    print('Test accuracy:', test_acc, file=f)
